@@ -1,0 +1,59 @@
+// Content wrapper
+.wrap { }
+
+// Main content area
+.main {
+  .make-sm-column(@main-sm-columns);
+  .sidebar-primary & {
+    .make-sm-column(@main-sm-columns - @sidebar-sm-columns);
+  }
+}
+
+// Posts Loop
+
+
+#tight {
+  max-width: 860px;
+  text-align: center;
+}
+
+.vcard {
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 0 0 14px 0;
+}
+
+.main {
+  padding: 0;
+}
+
+// modal
+.modal {
+  top: 20vh;
+}
+
+.modal-content {
+  background-color: @brand-primary;
+}
+
+.form-inline {
+  .btn-sub {
+    background: #fff;
+    margin-top: -1px;
+    color: @brand-primary;
+  }
+}
+
+.modal-form {
+  padding-bottom: 24px;
+  margin-top: -34px;
+  form button {
+    font-size: 14px;
+    &:hover {
+      .transition;
+      background: @brand-primary-dark;
+      color: white;
+    }
+  }
+}
