@@ -1,10 +1,13 @@
 <section id="hero">
   <div class="wrap container">
     <div class="row">
-      <div class="col-xs-12 text-center">
-        <a href="http://timelyapp.com" target="_blank" class="btn btn-primary btn-sm">Home</a>
-        <h1>Be Timely</h1>
-        <h3>The product blog of timelyapp.com, the time tracking app to end time tracking. Follow for new features and updates.</h3>
+      <div class="text-center">
+        <h1>HDY</h1>
+        <h3>One piece of content, once a week, more than one minute long. <strong>How dare you?</strong></h3>
+        <div class="ctas">
+          <a href="http://timelyapp.com" target="_blank" class="btn btn-primary btn-sm">Apply</a>
+          <a>About</a>
+        </div>
       </div>
     </div>
   </div>

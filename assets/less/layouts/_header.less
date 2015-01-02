@@ -83,6 +83,7 @@ nav {
   font-weight: bold;
   letter-spacing: 0.025em;
   border-bottom: 1px solid @gray-lighter;
+  border-top: 1px solid @gray-lighter;
   ul {
     padding-right: 48px;
   li {
@@ -124,11 +125,12 @@ nav {
   hero
   ----------------------*/
 #hero {
-  background: @brand-primary;
+  background: #ffffff;
   margin-bottom: -10px; /* This is to compensate for some random empty space above the nav */
+  .ctas {
+    padding-bottom: 48px;
+  }
   .btn {
-    margin-top: 12px;
-    float: left;
     color: @brand-primary-light;
     background: rgba(255, 255, 255, 0);
     border: 1px solid @brand-primary-light;
@@ -140,7 +142,8 @@ nav {
   }
   h1 {
     padding-top: 24px;
-    color: #fff;
+    color: #313131;
+    font-weight: 600;
   }
   h3 {
     padding-bottom: 8px;
