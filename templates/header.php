@@ -2,7 +2,7 @@
   <div class="wrap container">
     <div class="row">
       <div class="text-center">
-        <h1>HDY</h1>
+        <?php get_template_part( 'assets/img/svg/inline', 'hdy.svg' ); ?>
         <h3>One piece of content, once a week, more than one minute long. <strong>How dare you?</strong></h3>
         <div class="ctas">
           <a href="http://timelyapp.com" target="_blank" class="btn btn-primary btn-sm">Apply</a>
