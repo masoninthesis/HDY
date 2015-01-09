@@ -5,8 +5,8 @@
         <?php get_template_part( 'assets/img/svg/inline', 'hdy.svg' ); ?>
         <h3>One piece of content, once a week, more than one minute long. <strong>How dare you?</strong></h3>
         <div class="ctas">
-          <a href="http://timelyapp.com" target="_blank" class="btn btn-primary btn-sm">Apply</a>
-          <a>About</a>
+          <button class="btn btn-sub btn-sub-mobile" data-toggle="modal" data-target="#myModal" name="nav-sub-mobile">I Dare</button>
+          <a>wtf?</a>
         </div>
       </div>
     </div>
@@ -17,11 +17,11 @@
   <div class="nav-container">
     <ul id="form-before">
       <li class="twitter nav-tablet">
-        <a href="https://twitter.com/timelyapp" class="twitter-follow-button" data-show-count="false">Follow @timelyapp</a>
+        <a href="https://twitter.com/howdareyou" class="twitter-follow-button" data-show-count="false">Follow @timelyapp</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
       </li>
       <li class="facebook  nav-tablet">
-        <div class="fb-like" data-href="https://www.facebook.com/TimelyApp" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+        <div class="fb-like" data-href="https://www.facebook.com/howdareyou" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
       </li>
       <li class="nav-sub nav-tablet">
         <form>
